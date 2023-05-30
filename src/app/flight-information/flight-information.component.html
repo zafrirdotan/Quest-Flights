@@ -1,0 +1,14 @@
+<mat-list *ngIf="flight">
+
+    <mat-list-item> Plane Number: {{flight.num}}</mat-list-item>
+    <mat-divider></mat-divider>
+
+    <mat-list-item> Duration: {{flight.duration | duration}}</mat-list-item>
+    <mat-divider></mat-divider>
+
+    <mat-list-item> Origin gate {{flight.from_gate}}</mat-list-item>
+    <mat-divider></mat-divider>
+
+    <mat-list-item> Destination gate {{flight.to_gate}}</mat-list-item>
+    <mat-divider></mat-divider>
+</mat-list>

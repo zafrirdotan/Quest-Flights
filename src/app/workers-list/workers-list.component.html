@@ -1,0 +1,10 @@
+<h1>Workers</h1>
+
+<mat-list>
+    <div *ngFor="let worker of workers">
+
+        <mat-list-item (click)="selectWorker(worker.id)"
+            [activated]="worker.id === workerId">{{worker.name}}</mat-list-item>
+        <mat-divider></mat-divider>
+    </div>
+</mat-list>

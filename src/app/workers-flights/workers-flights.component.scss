@@ -1,0 +1,15 @@
+:host {
+    display: flex;
+}
+
+tr.element-row:not(.example-expanded-row):active {
+    background: #efefef;
+}
+
+tr.element-row:not(.example-expanded-row):hover {
+    background: whitesmoke;
+}
+
+.highlight {
+    background-color: whitesmoke;
+}
